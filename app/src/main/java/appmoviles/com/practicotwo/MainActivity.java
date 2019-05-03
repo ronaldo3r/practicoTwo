@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView selHeroe;
 
     private Button btn_resultado;
+    private Button btn_reporte;
 
     private RadioGroup generos;
     private RadioButton gen1;
@@ -58,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
         selHeroe = findViewById(R.id.txt_heroe);
 
         btn_resultado = findViewById(R.id.btn_resultado);
+        btn_reporte = findViewById(R.id.btn_reporte);
 
         generos = findViewById(R.id.opc_genero);
         gen1 = findViewById(R.id.radio_opcGen1);
@@ -127,6 +129,16 @@ public class MainActivity extends AppCompatActivity {
 
                 Intent i = new Intent(MainActivity.this, PrincipalReporte.class);
                 startActivity(i);
+                finish();
+            }
+        });
+
+        btn_reporte.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, PrincipalReporte.class);
+                startActivity(i);
+                finish();
             }
         });
 

@@ -62,6 +62,7 @@
         android:text="Doctor strange" />
 
     <TextView
+        android:layout_marginTop="30dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -148,4 +149,10 @@
         android:layout_height="wrap_content"
         android:text="Seleccionar"
         android:id="@+id/btn_sel"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver a votar"
+        android:id="@+id/btn_voto"/>
 </LinearLayout>

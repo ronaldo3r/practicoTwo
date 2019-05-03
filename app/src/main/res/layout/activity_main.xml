@@ -216,4 +216,11 @@
         android:gravity="center"
         android:text="Enviar resultados"
         android:id="@+id/btn_resultado"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Ir a reporte"
+        android:id="@+id/btn_reporte"/>
 </LinearLayout>

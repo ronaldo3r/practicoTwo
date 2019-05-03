@@ -105,6 +105,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "565898554863-aco4svoorle192tcb2cd4sskd1esje8k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "appmoviles.com.practicotwo",
+            "certificate_hash": "dc39280840b02011fbfe9c71f30357c295758168"
+          }
+        },
+        {
           "client_id": "565898554863-vuv0gfi3pr3ag9tp6v2m53lian78m977.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
