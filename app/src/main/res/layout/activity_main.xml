@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecciona tu género"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        android:id="@+id/txt_genero"
+        android:textSize="15dp"/>
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/opc_genero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        >
+
+        <RadioButton
+            android:id="@+id/radio_opcGen1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Masculino"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
+
+        <RadioButton
+            android:id="@+id/radio_opcGen2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Femenino"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
+    </RadioGroup>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecciona tu rango de edad"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        android:id="@+id/txt_edad"
+        android:textSize="15dp"/>
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/opc_edad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        >
+
+        <RadioButton
+            android:id="@+id/radio_opcEdad1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Menor o igual a 13 años"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
+
+        <RadioButton
+            android:id="@+id/radio_opcEdad2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Entre 14 y 25 años"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
+
+        <RadioButton
+            android:id="@+id/radio_opcEdad3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Mayor a 25 años"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
+    </RadioGroup>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecciona tu superhéroe favorito"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        android:id="@+id/txt_heroe"
+        android:textSize="15dp"/>
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/opc_heroe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        >
+
+        <RadioButton
+            android:id="@+id/radio_opcHeroe1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Spiderman"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
+
+        <RadioButton
+            android:id="@+id/radio_opcHeroe2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Ironman"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
+
+        <RadioButton
+            android:id="@+id/radio_opcHeroe3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Capitan America"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
+
+        <RadioButton
+            android:id="@+id/radio_opcHeroe4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Capitana Marvel"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
+
+        <RadioButton
+            android:id="@+id/radio_opcHeroe5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Hulk"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
+
+        <RadioButton
+            android:id="@+id/radio_opcHeroe6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="La Viuda Negra"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
+
+        <RadioButton
+            android:id="@+id/radio_opcHeroe7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Thor"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
+
+        <RadioButton
+            android:id="@+id/radio_opcHeroe8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Doctor Strange"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Enviar resultados"
+        android:id="@+id/btn_resultado"/>
+</LinearLayout>
