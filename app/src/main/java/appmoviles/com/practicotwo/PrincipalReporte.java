@@ -332,6 +332,7 @@ public class PrincipalReporte extends AppCompatActivity {
             }
         });
 
+        
         if(total!=0){
             txt_spiderman.setText("Spiderman: " + spi/total );
             txt_ironman.setText("Ironman: " + iro/total);
